@@ -199,10 +199,7 @@ function goBackToMarketplace() {
             document.getElementById('marketplace').style.display = 'none';
             document.getElementById('product-details').style.display = 'block';
             document.getElementById('topTrendsSection').style.display = 'none';
-
-            document.getElementById('all-products').style.display = 'none';   
-            document.getElementById('topTrendsSection').style.display = 'none';
-
+            document.getElementById('all-products').style.display = 'none';  
             // Hide carousel and top trends when viewing product details
             document.getElementById('dashboard').style.display = 'none';
             document.getElementById('all-products-section').style.display = 'none';
@@ -216,6 +213,7 @@ function goBackToMarketplace() {
             'Corn': { img: 'Images/Dashboard imgs/image1.jpg', price: '₱46/kilo', rating: 5, description: 'Corn is rich in vitamins and minerals.' },
             'Sugarcane': { img: 'Images/Dashboard imgs/image2.jpg', price: '₱65/kilo', rating: 5, description: 'Sugarcane is used to produce sugar and other sweeteners.' },
             'Rice': { img: 'Images/Dashboard imgs/image3.jpg', price: '₱44/kilo', rating: 4, description: 'Rice is a staple food in many countries.' },
+            'Garlic': { img: 'Images/Dashboard imgs/4.jpg', price: '₱60/kilo', rating: 4, description: 'Garlic is a popular seasoning in many dishes worldwide.' },
         };
     
         const product = products[productName];

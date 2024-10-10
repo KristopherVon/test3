@@ -8,7 +8,7 @@
 /* Body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #e7cebc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,8 +23,8 @@ nav {
     align-items: center;
     width: 100%;
     padding: 10px 15px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f6b468;
+    box-shadow: 0 2px 5px rgba(183, 22, 22, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -52,16 +52,18 @@ nav {
     font-size: 0.9rem;
     padding: 8px;
     transition: color 0.3s ease, border-bottom 0.3s ease;
+    font-weight: bold;
 }
 .nav-links a:hover,
 .nav-links a.active {
-    color: #28a745;
-    border-bottom: 2px solid #28a745;
+    color: #8d4920;
+    border-bottom: 2px solid #8d4920;
 }
 /* Profile button styling */
 .profile-btn {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #bc6c25;
+    font-weight: bold;
+    color: #000000;
     border: none;
     padding: 8px 12px;
     border-radius: 5px;
@@ -71,7 +73,7 @@ nav {
 }
 
 .profile-btn:hover {
-    background-color: #218838;
+    background-color: #8d4920;
 }
 
 /* Main content area styling */
@@ -181,7 +183,7 @@ nav {
 .product-info button {
     padding: 8px 12px;
     margin-right: 20px; /* Increased right margin to create more space between buttons */
-    background-color: #28a745;
+    background-color: #bc6c25;
     color: white;
     border: none;
     border-radius: 5px;
@@ -191,7 +193,8 @@ nav {
 }
 
 .product-info button:hover {
-    background-color: #218838;
+    background-color: #8d4920;
+
 }
 /* Search and filter bar */
 .search-filter-bar {
@@ -216,7 +219,7 @@ nav {
 /* Styling the filter buttons */
 .filter-btn {
     padding: 10px;
-    background-color: #28a745;
+    background-color: #bc6c25;
     color: white;
     border: none;
     border-radius: 5px;
@@ -226,7 +229,7 @@ nav {
     margin: 5px;
 }
 .filter-btn:hover {
-    background-color: #218838;
+    background-color: #8d4920;
 }
 
 .filter-btn.active {
@@ -244,7 +247,7 @@ nav {
 /* Adjust button styles if needed */
 .button-container button {
     padding: 10px; /* Adjust padding */
-    background-color: #28a745; /* Green background */
+    background-color: #bc6c25; /* Green background */
     color: white;
     border: none;
     border-radius: 5px;
@@ -254,7 +257,7 @@ nav {
 }
 
 .button-container button:hover {
-    background-color: #218838; /* Darker green on hover */
+    background-color:#8d4920; /* Darker green on hover */
 }
 
 /* Add to Cart Button */
